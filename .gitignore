@@ -18,3 +18,10 @@ nytprof.out
 *.o
 *.bs
 /_eumm/
+ignore.txt
+.lwpcookies
+nytprof.out
+pod2htm*.tmp
+Test-DBIMock-More-*
+Test-DBIMock-More-*.tar.gz
+*.png
