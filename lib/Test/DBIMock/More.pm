@@ -14,8 +14,8 @@ our $VERSION = '0.01';
 =head1 SYNOPSIS
 
 		my $dbiMock = Test::DBIMock::More->new();
-		$mock->mock('t/DataSet1.pl');
-		$mock->mock('t/DataSet2.json');
+		$mock->addDataSet('t/DataSet1.pl');
+		$mock->addDataSet('t/DataSet2.json');
 		
 		print 'Schemas: ' . join(', ', @{$mock->getSchemas}) . "\n";
 		
@@ -33,11 +33,42 @@ if you don't export anything, such as for a purely object-oriented module.
 
 =head1 SUBROUTINES/METHODS
 
-=head2 function1
-
+=head2 addDataSet
+	Description	:
+	Params	: $datasource, 
+	Returns	: None.
 =cut
 
-sub function1 {
+sub addDataSet {
+	my ($self, $datasource, $formatOrOverrideBuilder) = @_;
+	
+	my $builderMap = {
+		'.json'=> 'Test::MockDBI::DataSetBuilder::JSON',
+		'.sql' => 'Test::MockDBI::DataSetBuilder::SQL',
+		'.pl'=> 'Test::MockDBI::DataSetBuilder::Native',
+		'.sqlite' => 'Test::MockDBI::DataSetBuilder::SQLite',
+	};
+	
+	my $format = $builderMap->{$formatOrOverrideBuilder} || $builderMap->{($datasource =~ /(\.\w+)$/)[0]} || 'Test::MockDBI::DataSetBuilder::Native';
+	
+	my $data;
+	if ($format eq 'JSON') {
+		require JSON;
+		try {
+			my $json = require($datasource);
+			$data = JSON::to_json($json);
+		} catch {
+			print "JSON error!";
+		}
+	} elsif ($format eq 'NATIVE') {
+		try {
+			$data = require($datasource);
+			
+			DataSetBuilder->build($data );
+		} catch {
+			print "NATIVE error!: $_";
+		};
+	}
 }
 
 =head2 function2
