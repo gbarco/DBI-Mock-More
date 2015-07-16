@@ -1,6 +1,6 @@
 package Test::DBIMock::More;
 
-use 5.006;
+use 5.14.2;
 use strict;
 use warnings FATAL => 'all';
 
