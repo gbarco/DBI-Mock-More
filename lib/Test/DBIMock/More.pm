@@ -5,28 +5,26 @@ use strict;
 use warnings FATAL => 'all';
 
 =head1 NAME
-
 Test::DBIMock::More - The great new Test::DBIMock::More!
-
 =head1 VERSION
-
 Version 0.01
-
 =cut
-
 our $VERSION = '0.01';
-
 
 =head1 SYNOPSIS
 
-Quick summary of what the module does.
-
-Perhaps a little code snippet.
-
-    use Test::DBIMock::More;
-
-    my $foo = Test::DBIMock::More->new();
-    ...
+		my $dbiMock = Test::DBIMock::More->new();
+		$mock->mock('t/DataSet1.pl');
+		$mock->mock('t/DataSet2.json');
+		
+		print 'Schemas: ' . join(', ', @{$mock->getSchemas}) . "\n";
+		
+		$result = $dbh->selectall_arrayref("SELECT * FROM schema1.sales JOIN schema2.users USING (session_id);");
+		if (ref $result eq 'ARRAYREF') {
+			foreach $row (@$$result) {
+				print join(', ', values(%$row));
+			}
+		}
 
 =head1 EXPORT
 
