@@ -1,4 +1,4 @@
-package Test::MockDBI::DataSetBuilder;
+package Test::MockDBI::More::DataSetBuilder;
 
 use 5.14.2;
 use strict;
@@ -72,7 +72,7 @@ sub initialize {
 
 =head2 build
 	Description	: Generic dataset building algorithm
-	Params	: HASHREF $data, format documented in C</"DATASET FORMAT">
+	Params	: HASHREF $data, data to include within the representation. Format documented in C</"DATASET FORMAT">
 	Returns	: None.
 =cut
 
@@ -89,6 +89,20 @@ sub build {
 			}
 		}
 	}
+}
+
+=item getSchemas
+	Description: Returns a list of schemas
+	Parameters: $self should be a reference to a Test::MockDBI::More::DataSetBuilder
+	Returns: ARRAYREF of SCALAR ['main','temp','booking_engine_var']
+	Call convention: $obj->getSchemas
+=cut
+
+sub getSchemas {
+	my ($self) = @_;
+	
+	my $sth = $self->getDbh->table_info('', '%', '');
+	return $self->getDbh->selectcol_arrayref($sth, {Columns => [2]});
 }
 
 =head1 DATASET FORMAT
