@@ -47,7 +47,7 @@ Otros casos:
 
 perl make_data_set.pl --service db_central --json-file myTestSQLiteDataSet2.json --perl-file myTestSQLiteDataSet2.pl --sql "SELECT ventas.id, ventas.status, ventas.razon_status, ventas.pnr, ventas.fecha, cotizaciones.id_cotizacion, cotizaciones.routing FROM booking_engine_var.ventas INNER JOIN booking_engine_var.cotizaciones ON cotizaciones.id_cotizacion = ventas.id_cotizacion WHERE NOT ventas.pnr IS NULL AND ventas.fecha BETWEEN '2015-07-01 00:00:00' AND '2015-07-02 00:00:00' LIMIT 10;"
 
-
+NOTA: Se requiere la librería SQL::Statement moficada, por ahora se encuentra en: https:\/\/github.com\/andressg79\/SQL-Statement
 
 / if (!$statement || $help);
     
