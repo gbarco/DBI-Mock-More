@@ -1,0 +1,81 @@
+{ 'data': 'Info message
+' }{ 'data': 'Debug message
+' }{ 'data': 'Error message
+' }{ 'data': '127.0.0.1 - - [24/Jul/2015:10:31:20 -0300] "GET / HTTP/1.1" 200 5680 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+
+' }{ 'data': 'Info message
+' }{ 'data': 'Debug message
+' }{ 'data': 'Error message
+' }{ 'data': '127.0.0.1 - - [24/Jul/2015:10:31:20 -0300] "GET /favicon.ico HTTP/1.1" 200 5680 "http://localhost:5000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+
+' }{ 'data': 'Info message
+' }{ 'data': 'Debug message
+' }{ 'data': 'Error message
+' }{ 'data': '127.0.0.1 - - [24/Jul/2015:10:32:37 -0300] "GET / HTTP/1.1" 200 5680 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+
+' }{ 'data': 'Info message
+' }{ 'data': 'Debug message
+' }{ 'data': 'Error message
+' }{ 'data': '127.0.0.1 - - [24/Jul/2015:10:32:37 -0300] "GET /favicon.ico HTTP/1.1" 200 5680 "http://localhost:5000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+
+' }{ 'data': 'Info message
+' }{ 'data': 'Debug message
+' }{ 'data': 'Error message
+' }{ 'data': '127.0.0.1 - - [24/Jul/2015:10:35:22 -0300] "GET / HTTP/1.1" 200 5680 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+
+' }{ 'data': 'Info message
+' }{ 'data': 'Debug message
+' }{ 'data': 'Error message
+' }{ 'data': '127.0.0.1 - - [24/Jul/2015:10:35:22 -0300] "GET /favicon.ico HTTP/1.1" 200 5680 "http://localhost:5000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+
+' }{ 'data': 'Info message
+' }{ 'data': 'Debug message
+' }{ 'data': 'Error message
+' }{ 'data': '127.0.0.1 - - [24/Jul/2015:10:35:23 -0300] "GET / HTTP/1.1" 200 5680 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+
+' }{ 'data': 'Info message
+' }{ 'data': 'Debug message
+' }{ 'data': 'Error message
+' }{ 'data': '127.0.0.1 - - [24/Jul/2015:10:35:23 -0300] "GET /favicon.ico HTTP/1.1" 200 5680 "http://localhost:5000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+
+' }{ 'data': 'Info message
+' }{ 'data': 'Debug message
+' }{ 'data': 'Error message
+' }{ 'data': '127.0.0.1 - - [24/Jul/2015:10:35:23 -0300] "GET / HTTP/1.1" 200 5680 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+
+' }{ 'data': 'Info message
+' }{ 'data': 'Debug message
+' }{ 'data': 'Error message
+' }{ 'data': '127.0.0.1 - - [24/Jul/2015:10:35:23 -0300] "GET /favicon.ico HTTP/1.1" 200 5680 "http://localhost:5000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+
+' }{ 'data': 'Info message
+' }{ 'data': 'Debug message
+' }{ 'data': 'Error message
+' }{ 'data': '127.0.0.1 - - [24/Jul/2015:10:35:23 -0300] "GET / HTTP/1.1" 200 5680 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+
+' }{ 'data': 'Info message
+' }{ 'data': 'Debug message
+' }{ 'data': 'Error message
+' }{ 'data': '127.0.0.1 - - [24/Jul/2015:10:35:23 -0300] "GET /favicon.ico HTTP/1.1" 200 5680 "http://localhost:5000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+
+' }{ 'data': 'Info message
+' }{ 'data': 'Debug message
+' }{ 'data': 'Error message
+' }{ 'data': '127.0.0.1 - - [24/Jul/2015:10:35:23 -0300] "GET / HTTP/1.1" 200 5680 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+
+' }{ 'data': 'Info message
+' }{ 'data': 'Debug message
+' }{ 'data': 'Error message
+' }{ 'data': '127.0.0.1 - - [24/Jul/2015:10:35:24 -0300] "GET /favicon.ico HTTP/1.1" 200 5680 "http://localhost:5000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+
+' }{ 'data': 'Info message
+' }{ 'data': 'Debug message
+' }{ 'data': 'Error message
+' }{ 'data': '127.0.0.1 - - [24/Jul/2015:10:35:24 -0300] "GET / HTTP/1.1" 200 5680 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+
+' }{ 'data': 'Info message
+' }{ 'data': 'Debug message
+' }{ 'data': 'Error message
+' }{ 'data': '127.0.0.1 - - [24/Jul/2015:10:35:24 -0300] "GET /favicon.ico HTTP/1.1" 200 5680 "http://localhost:5000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+
+' }

@@ -1,0 +1,892 @@
+{ 'event': 'Plack.Middleware.AccessLog.LAN.Logger', 'created_at': '2015/07/24 10:42:03', 'time_elapsed': '1', 'package': 'Plack::Middleware::AccessLog::LAN::Logger', 'originated_in': '/home/andressabini/workspace/Test-DBIMock-More/trunk/Plack/Middleware/AccessLog/LAN/Logger.pm', 'method': 'Plack::Middleware::AccessLog::LAN::Logger::call /home/andressabini/workspace/Test-DBIMock-More/trunk/Plack/Middleware/AccessLog/LAN/Logger.pm (24)', 'method2': 'Plack::Middleware::AccessLog::LAN::Logger::call', 'line_number': '24', 'data': 'Info message', },
+{ 'event': 'Plack.Middleware.AccessLog.LAN.Logger', 'created_at': '2015/07/24 10:42:03', 'time_elapsed': '13', 'package': 'Plack::Middleware::AccessLog::LAN::Logger', 'originated_in': '/home/andressabini/workspace/Test-DBIMock-More/trunk/Plack/Middleware/AccessLog/LAN/Logger.pm', 'method': 'Plack::Middleware::AccessLog::LAN::Logger::__ANON__ /home/andressabini/workspace/Test-DBIMock-More/trunk/Plack/Middleware/AccessLog/LAN/Logger.pm (61)', 'method2': 'Plack::Middleware::AccessLog::LAN::Logger::__ANON__', 'line_number': '61', 'data': 127.0.0.1 - - [24/Jul/2015:10:42:03 -0300] "GET / HTTP/1.1" 200 5680 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+, },
+{ 'event': 'Plack.Middleware.AccessLog.LAN.Logger', 'created_at': '2015/07/24 10:42:03', 'time_elapsed': '0', 'package': 'Plack::Middleware::AccessLog::LAN::Logger', 'originated_in': '/home/andressabini/workspace/Test-DBIMock-More/trunk/Plack/Middleware/AccessLog/LAN/Logger.pm', 'method': 'Plack::Middleware::AccessLog::LAN::Logger::call /home/andressabini/workspace/Test-DBIMock-More/trunk/Plack/Middleware/AccessLog/LAN/Logger.pm (24)', 'method2': 'Plack::Middleware::AccessLog::LAN::Logger::call', 'line_number': '24', 'data': 'Info message', },
+{ 'event': 'Plack.Middleware.AccessLog.LAN.Logger', 'created_at': '2015/07/24 10:42:03', 'time_elapsed': '2', 'package': 'Plack::Middleware::AccessLog::LAN::Logger', 'originated_in': '/home/andressabini/workspace/Test-DBIMock-More/trunk/Plack/Middleware/AccessLog/LAN/Logger.pm', 'method': 'Plack::Middleware::AccessLog::LAN::Logger::__ANON__ /home/andressabini/workspace/Test-DBIMock-More/trunk/Plack/Middleware/AccessLog/LAN/Logger.pm (61)', 'method2': 'Plack::Middleware::AccessLog::LAN::Logger::__ANON__', 'line_number': '61', 'data': 127.0.0.1 - - [24/Jul/2015:10:42:03 -0300] "GET /favicon.ico HTTP/1.1" 200 5680 "http://localhost:5000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+, },
+{ 'created_at': '2015/07/24 10:45:32', 'time_elapsed': '6709', 'data': 'Info message', },
+{ 'created_at': '2015/07/24 10:45:32', 'time_elapsed': '6716', 'data': 127.0.0.1 - - [24/Jul/2015:10:45:32 -0300] "GET / HTTP/1.1" 200 5680 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+, },
+{ 'created_at': '2015/07/24 10:45:32', 'time_elapsed': '6773', 'data': 'Info message', },
+{ 'created_at': '2015/07/24 10:45:32', 'time_elapsed': '6776', 'data': 127.0.0.1 - - [24/Jul/2015:10:45:32 -0300] "GET /favicon.ico HTTP/1.1" 200 5680 "http://localhost:5000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+, },
+{ 'created_at': '2015/07/24 10:45:41', 'time_elapsed': '15107', 'data': 'Info message', },
+{ 'created_at': '2015/07/24 10:45:41', 'time_elapsed': '15115', 'data': 127.0.0.1 - - [24/Jul/2015:10:45:41 -0300] "GET / HTTP/1.1" 200 5680 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+, },
+{ 'created_at': '2015/07/24 10:45:41', 'time_elapsed': '15150', 'data': 'Info message', },
+{ 'created_at': '2015/07/24 10:45:41', 'time_elapsed': '15153', 'data': 127.0.0.1 - - [24/Jul/2015:10:45:41 -0300] "GET /favicon.ico HTTP/1.1" 200 5680 "http://localhost:5000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+, },
+{ 'created_at': '2015/07/24 10:46:00', 'time_elapsed': '34417', 'data': 'Info message', },
+{ 'created_at': '2015/07/24 10:46:00', 'time_elapsed': '34424', 'data': 127.0.0.1 - - [24/Jul/2015:10:46:00 -0300] "GET / HTTP/1.1" 200 5680 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+, },
+{ 'created_at': '2015/07/24 10:46:00', 'time_elapsed': '34464', 'data': 'Info message', },
+{ 'created_at': '2015/07/24 10:46:00', 'time_elapsed': '34468', 'data': 127.0.0.1 - - [24/Jul/2015:10:46:00 -0300] "GET /favicon.ico HTTP/1.1" 200 5680 "http://localhost:5000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+, },
+{ 'created_at': '2015/07/24 11:09:19', $VAR1 = 'Este es un mensaje';
+, },
+{ 'created_at': '2015/07/24 11:09:19', 127.0.0.1 - - [24/Jul/2015:11:09:19 -0300] "GET / HTTP/1.1" 200 5680 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+, },
+{ 'created_at': '2015/07/24 11:09:19', $VAR1 = 'Este es un mensaje';
+, },
+{ 'created_at': '2015/07/24 11:09:19', 127.0.0.1 - - [24/Jul/2015:11:09:19 -0300] "GET /favicon.ico HTTP/1.1" 200 5680 "http://localhost:5000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+, },
+{ 'created_at': '2015/07/24 11:10:51', $VAR1 = {};
+, },
+{ 'created_at': '2015/07/24 11:10:51', $VAR1 = 'Este es un mensaje';
+, },
+{ 'created_at': '2015/07/24 11:10:51', 127.0.0.1 - - [24/Jul/2015:11:10:51 -0300] "GET / HTTP/1.1" 200 5680 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+, },
+{ 'created_at': '2015/07/24 11:10:51', $VAR1 = {};
+, },
+{ 'created_at': '2015/07/24 11:10:51', $VAR1 = 'Este es un mensaje';
+, },
+{ 'created_at': '2015/07/24 11:10:51', 127.0.0.1 - - [24/Jul/2015:11:10:51 -0300] "GET /favicon.ico HTTP/1.1" 200 5680 "http://localhost:5000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+, },
+{ 'created_at': '15-24-12 11:12:15', $VAR1 = {};
+, },
+{ 'created_at': '15-24-12 11:12:15', $VAR1 = 'Este es un mensaje';
+, },
+{ 'created_at': '15-24-12 11:12:15', 127.0.0.1 - - [24/Jul/2015:11:12:15 -0300] "GET / HTTP/1.1" 200 5680 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+, },
+{ 'created_at': '15-24-12 11:12:15', $VAR1 = {};
+, },
+{ 'created_at': '15-24-12 11:12:15', $VAR1 = 'Este es un mensaje';
+, },
+{ 'created_at': '15-24-12 11:12:15', 127.0.0.1 - - [24/Jul/2015:11:12:15 -0300] "GET /favicon.ico HTTP/1.1" 200 5680 "http://localhost:5000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+, },
+{ 'created_at': 'Y-7-205 11:12:51', $VAR1 = {};
+, },
+{ 'created_at': 'Y-7-205 11:12:51', $VAR1 = 'Este es un mensaje';
+, },
+{ 'created_at': 'Y-7-205 11:12:51', 127.0.0.1 - - [24/Jul/2015:11:12:51 -0300] "GET / HTTP/1.1" 200 5680 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+, },
+{ 'created_at': 'Y-7-205 11:12:51', $VAR1 = {};
+, },
+{ 'created_at': 'Y-7-205 11:12:51', $VAR1 = 'Este es un mensaje';
+, },
+{ 'created_at': 'Y-7-205 11:12:51', 127.0.0.1 - - [24/Jul/2015:11:12:51 -0300] "GET /favicon.ico HTTP/1.1" 200 5680 "http://localhost:5000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+, },
+{ 'created_at': '2015-07-24 11:15:10', $VAR1 = {};
+, },
+{ 'created_at': '2015-07-24 11:15:10', $VAR1 = 'Este es un mensaje';
+, },
+{ 'created_at': '2015-07-24 11:15:10', 127.0.0.1 - - [24/Jul/2015:11:15:10 -0300] "GET / HTTP/1.1" 200 5680 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+, },
+{ 'created_at': '2015-07-24 11:15:10', $VAR1 = {};
+, },
+{ 'created_at': '2015-07-24 11:15:10', $VAR1 = 'Este es un mensaje';
+, },
+{ 'created_at': '2015-07-24 11:15:10', 127.0.0.1 - - [24/Jul/2015:11:15:10 -0300] "GET /favicon.ico HTTP/1.1" 200 5680 "http://localhost:5000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+, },
+{ 'created_at': '2015-07-24 11:18:07', $VAR1 = {
+          'SERVER_PROTOCOL' => 'HTTP/1.1',
+          'psgi.run_once' => '',
+          'psgix.session.options' => {
+                                       'id' => 'dcaf57e4ce1f8b37095bc2ed7ca7ab404815b29d'
+                                     },
+          'psgi.errors' => *::STDERR,
+          'REQUEST_METHOD' => 'GET',
+          'REMOTE_ADDR' => '127.0.0.1',
+          'HTTP_CONNECTION' => 'keep-alive',
+          'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+          'REMOTE_PORT' => 39058,
+          'psgix.harakiri' => 1,
+          'HTTP_CACHE_CONTROL' => 'max-age=0',
+          'psgi.streaming' => 1,
+          'HTTP_HOST' => 'localhost:5000',
+          'PATH_INFO' => '/',
+          'psgi.nonblocking' => '',
+          'psgi.version' => [
+                              1,
+                              1
+                            ],
+          'HTTP_COOKIE' => 'PHPSESSID=0n30nm2psevlmqbe244510o6b7; plack_session=514283647a57da5d6d386f6952b863668825536b',
+          'psgix.io' => bless( \*Symbol::GEN1, 'IO::Socket::INET' ),
+          'REQUEST_URI' => '/',
+          'psgi.url_scheme' => 'http',
+          'SCRIPT_NAME' => '',
+          'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch',
+          'HTTP_HTTPS' => '1',
+          'SERVER_NAME' => 0,
+          'QUERY_STRING' => '',
+          'psgix.session' => {},
+          'psgi.multithread' => '',
+          'psgi.multiprocess' => '',
+          'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36',
+          'psgix.input.buffered' => 1,
+          'SERVER_PORT' => 5000,
+          'HTTP_ACCEPT_LANGUAGE' => 'es,en;q=0.8',
+          'psgi.input' => \*{'HTTP::Server::PSGI::$input'}
+        };
+, },
+{ 'created_at': '2015-07-24 11:18:07', $VAR1 = [
+          '200',
+          [
+            'Content-Type',
+            'text/html'
+          ],
+          [
+            '$VAR1 = \'LANG\';
+',
+            '$VAR2 = \'en_US.UTF-8\';
+',
+            '$VAR3 = \'GDM_LANG\';
+',
+            '$VAR4 = \'en_US\';
+',
+            '$VAR5 = \'no_proxy\';
+',
+            '$VAR6 = \'localhost,127.0.0.0/8,::1\';
+',
+            '$VAR7 = \'DEFAULTS_PATH\';
+',
+            '$VAR8 = \'/usr/share/gconf/ubuntu.default.path\';
+',
+            '$VAR9 = \'LC_TELEPHONE\';
+',
+            ' \'es_UY.UTF-8\';
+',
+            '$VAR11 = \'TEXTDOMAIN\';
+',
+            '$VAR12 = \'im-config\';
+',
+            '$VAR13 = \'COLORTERM\';
+',
+            '$VAR14 = \'gnome-terminal\';
+',
+            '$VAR15 = \'WINDOWID\';
+',
+            '$VAR16 = \'73400331\';
+',
+            '$VAR17 = \'SSH_AUTH_SOCK\';
+',
+            '$VAR18 = \'/run/user/1001/keyring-rbnIF2/ssh\';
+',
+            '$VAR19 = \'XDG_GREETER_DATA_DIR\';
+',
+            '$VAR20 = \'/var/lib/lightdm-data/andressabini\';
+',
+            '$VAR21 = \'GNOME_KEYRING_CONTROL\';
+',
+            '$VAR22 = \'/run/user/1001/keyring-rbnIF2\';
+',
+            '$VAR23 = \'GPG_AGENT_INFO\';
+',
+            '$VAR24 = \'/run/user/1001/keyring-rbnIF2/gpg:0:1\';
+',
+            '$VAR25 = \'QT_IM_MODULE\';
+',
+            '$VAR26 = \'ibus\';
+',
+            '$VAR27 = \'LC_NAME\';
+',
+            '$VAR28 = \'es_UY.UTF-8\';
+',
+            '$VAR29 = \'VTE_VERSION\';
+',
+            '$VAR30 = \'3409\';
+',
+            '$VAR31 = \'DISPLAY\';
+',
+            '$VAR32 = \':0\';
+',
+            '$VAR33 = \'XDG_DATA_DIRS\';
+',
+            '$VAR34 = \'/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/\';
+',
+            '$VAR35 = \'CLUTTER_IM_MODULE\';
+',
+            '$VAR36 = \'xim\';
+',
+            '$VAR37 = \'https_proxy\';
+',
+            '$VAR38 = \'https://proxy.corp.globant.com:3128/\';
+',
+            '$VAR39 = \'TERM\';
+',
+            '$VAR40 = \'xterm\';
+',
+            '$VAR41 = \'PATH\';
+',
+            '$VAR42 = \'/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/bin:/usr/share/grails-2.2.1/bin:\';
+',
+            '$VAR43 = \'INSTANCE\';
+',
+            '$VAR44 = \'\';
+',
+            '$VAR45 = \'SELINUX_INIT\';
+',
+            '$VAR46 = \'YES\';
+',
+            '$VAR47 = \'XDG_CURRENT_DESKTOP\';
+',
+            '$VAR48 = \'Unity\';
+',
+            '$VAR49 = \'SHLVL\';
+',
+            '$VAR50 = \'1\';
+',
+            '$VAR51 = \'XDG_VTNR\';
+',
+            '$VAR52 = \'7\';
+',
+            '$VAR53 = \'XDG_CONFIG_DIRS\';
+',
+            '$VAR54 = \'/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg\';
+',
+            '$VAR55 = \'LC_PAPER\';
+',
+            '$VAR56 = \'es_UY.UTF-8\';
+',
+            '$VAR57 = \'LC_TIME\';
+',
+            '$VAR58 = \'es_UY.UTF-8\';
+',
+            '$VAR59 = \'COMPIZ_CONFIG_PROFILE\';
+',
+            '$VAR60 = \'ubuntu\';
+',
+            '$VAR61 = \'SESSION_MANAGER\';
+',
+            '$VAR62 = \'local/glb-d0013uy:@/tmp/.ICE-unix/2202,unix/glb-d0013uy:/tmp/.ICE-unix/2202\';
+',
+            '$VAR63 = \'QT_QPA_PLATFORMTHEME\';
+',
+            '$VAR64 = \'appmenu-qt5\';
+',
+            '$VAR65 = \'TEXTDOMAINDIR\';
+',
+            '$VAR66 = \'/usr/share/locale/\';
+',
+            '$VAR67 = \'JOB\';
+',
+            '$VAR68 = \'dbus\';
+',
+            '$VAR69 = \'COMP_WORDBREAKS\';
+',
+            '$VAR70 = \' 	
+"\\\'><;|&(:\';
+',
+            '$VAR71 = \'LESSOPEN\';
+',
+            '$VAR72 = \'| /usr/bin/lesspipe %s\';
+',
+            '$VAR73 = \'PWD\';
+',
+            '$VAR74 = \'/home/andressabini/workspace/Test-DBIMock-More/trunk/cgi-bin\';
+',
+            '$VAR75 = \'http_proxy\';
+',
+            '$VAR76 = \'http://proxy.corp.globant.com:3128/\';
+',
+            '$VAR77 = \'LC_NUMERIC\';
+',
+            '$VAR78 = \'es_UY.UTF-8\';
+',
+            '$VAR79 = \'SESSION\';
+',
+            '$VAR80 = \'ubuntu\';
+',
+            '$VAR81 = \'GDMSESSION\';
+',
+            '$VAR82 = \'ubuntu\';
+',
+            '$VAR83 = \'GTK_IM_MODULE\';
+',
+            '$VAR84 = \'ibus\';
+',
+            '$VAR85 = \'XDG_SESSION_PATH\';
+',
+            '$VAR86 = \'/org/freedesktop/DisplayManager/Session0\';
+',
+            '$VAR87 = \'XDG_SESSION_ID\';
+',
+            '$VAR88 = \'c2\';
+',
+            '$VAR89 = \'IM_CONFIG_PHASE\';
+',
+            '$VAR90 = \'1\';
+',
+            '$VAR91 = \'XDG_RUNTIME_DIR\';
+',
+            '$VAR92 = \'/run/user/1001\';
+',
+            '$VAR93 = \'UPSTART_SESSION\';
+',
+            '$VAR94 = \'unix:abstract=/com/ubuntu/upstart-session/1001/2058\';
+',
+            '$VAR95 = \'PLACK_ENV\';
+',
+            '$VAR96 = \'development\';
+',
+            '$VAR97 = \'USER\';
+',
+            '$VAR98 = \'andressabini\';
+',
+            '$VAR99 = \'GRAILS_HOME\';
+',
+            '$VAR100 = \'/usr/share/grails-2.2.1\';
+',
+            '$VAR101 = \'OLDPWD\';
+',
+            '$VAR102 = \'/home/andressabini/workspace/Test-DBIMock-More/trunk\';
+',
+            '$VAR103 = \'GNOME_KEYRING_PID\';
+',
+            '$VAR104 = \'2056\';
+',
+            '$VAR105 = \'DBUS_SESSION_BUS_ADDRESS\';
+',
+            '$VAR106 = \'unix:abstract=/tmp/dbus-aDLW6Qp7rH\';
+',
+            '$VAR107 = \'XDG_SEAT_PATH\';
+',
+            '$VAR108 = \'/org/freedesktop/DisplayManager/Seat0\';
+',
+            '$VAR109 = \'LC_IDENTIFICATION\';
+',
+            '$VAR110 = \'es_UY.UTF-8\';
+',
+            '$VAR111 = \'GNOME_DESKTOP_SESSION_ID\';
+',
+            '$VAR112 = \'this-is-deprecated\';
+',
+            '$VAR113 = \'XDG_SEAT\';
+',
+            '$VAR114 = \'seat0\';
+',
+            '$VAR115 = \'_\';
+',
+            '$VAR116 = \'/usr/local/bin/plackup\';
+',
+            '$VAR117 = \'LS_COLORS\';
+',
+            '$VAR118 = \'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:\';
+',
+            '$VAR119 = \'HOME\';
+',
+            '$VAR120 = \'/home/andressabini\';
+',
+            '$VAR121 = \'XAUTHORITY\';
+',
+            '$VAR122 = \'/home/andressabini/.Xauthority\';
+',
+            '$VAR123 = \'SESSIONTYPE\';
+',
+            '$VAR124 = \'gnome-session\';
+',
+            '$VAR125 = \'QT4_IM_MODULE\';
+',
+            '$VAR126 = \'xim\';
+',
+            '$VAR127 = \'XMODIFIERS\';
+',
+            '$VAR128 = \'@im=ibus\';
+',
+            '$VAR129 = \'NO_PROXY\';
+',
+            '$VAR130 = \'localhost,127.0.0.0/8,::1\';
+',
+            '$VAR131 = \'GTK_MODULES\';
+',
+            '$VAR132 = \'overlay-scrollbar:unity-gtk-module\';
+',
+            '$VAR133 = \'LC_MONETARY\';
+',
+            '$VAR134 = \'es_UY.UTF-8\';
+',
+            '$VAR135 = \'LANGUAGE\';
+',
+            '$VAR136 = \'en_US\';
+',
+            '$VAR137 = \'SHELL\';
+',
+            '$VAR138 = \'/bin/bash\';
+',
+            '$VAR139 = \'COMPIZ_BIN_PATH\';
+',
+            '$VAR140 = \'/usr/bin/\';
+',
+            '$VAR141 = \'LC_ADDRESS\';
+',
+            '$VAR142 = \'es_UY.UTF-8\';
+',
+            '$VAR143 = \'MANDATORY_PATH\';
+',
+            '$VAR144 = \'/usr/share/gconf/ubuntu.mandatory.path\';
+',
+            '$VAR145 = \'DESKTOP_SESSION\';
+',
+            '$VAR146 = \'ubuntu\';
+',
+            '$VAR147 = \'LESSCLOSE\';
+',
+            '$VAR148 = \'/usr/bin/lesspipe %s %s\';
+',
+            '$VAR149 = \'XDG_MENU_PREFIX\';
+',
+            '$VAR150 = \'gnome-\';
+',
+            '$VAR151 = \'LOGNAME\';
+',
+            '$VAR152 = \'andressabini\';
+',
+            '$VAR153 = \'LC_MEASUREMENT\';
+',
+            '$VAR154 = \'es_UY.UTF-8\';
+'
+          ]
+        ];
+, },
+{ 'created_at': '2015-07-24 11:18:07', 127.0.0.1 - - [24/Jul/2015:11:18:07 -0300] "GET / HTTP/1.1" 200 5680 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+, },
+{ 'created_at': '2015-07-24 11:18:07', $VAR1 = {
+          'psgi.multithread' => '',
+          'psgix.input.buffered' => 1,
+          'psgi.multiprocess' => '',
+          'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36',
+          'psgix.session' => {},
+          'QUERY_STRING' => '',
+          'HTTP_ACCEPT_LANGUAGE' => 'es,en;q=0.8',
+          'psgi.input' => \*{'HTTP::Server::PSGI::$input'},
+          'SERVER_PORT' => 5000,
+          'psgi.version' => [
+                              1,
+                              1
+                            ],
+          'HTTP_COOKIE' => 'PHPSESSID=0n30nm2psevlmqbe244510o6b7; plack_session=dcaf57e4ce1f8b37095bc2ed7ca7ab404815b29d',
+          'psgix.io' => bless( \*Symbol::GEN2, 'IO::Socket::INET' ),
+          'psgi.nonblocking' => '',
+          'SERVER_NAME' => 0,
+          'SCRIPT_NAME' => '',
+          'psgi.url_scheme' => 'http',
+          'REQUEST_URI' => '/favicon.ico',
+          'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch',
+          'HTTP_ACCEPT' => '*/*',
+          'REMOTE_PORT' => 39059,
+          'HTTP_HOST' => 'localhost:5000',
+          'psgi.streaming' => 1,
+          'HTTP_CACHE_CONTROL' => 'no-cache',
+          'PATH_INFO' => '/favicon.ico',
+          'psgix.harakiri' => 1,
+          'REMOTE_ADDR' => '127.0.0.1',
+          'HTTP_REFERER' => 'http://localhost:5000/',
+          'REQUEST_METHOD' => 'GET',
+          'SERVER_PROTOCOL' => 'HTTP/1.1',
+          'psgi.errors' => *::STDERR,
+          'psgix.session.options' => {
+                                       'id' => 'dcaf57e4ce1f8b37095bc2ed7ca7ab404815b29d'
+                                     },
+          'psgi.run_once' => '',
+          'HTTP_PRAGMA' => 'no-cache',
+          'HTTP_CONNECTION' => 'keep-alive'
+        };
+, },
+{ 'created_at': '2015-07-24 11:18:07', $VAR1 = [
+          '200',
+          [
+            'Content-Type',
+            'text/html'
+          ],
+          [
+            '$VAR1 = \'LANG\';
+',
+            '$VAR2 = \'en_US.UTF-8\';
+',
+            '$VAR3 = \'GDM_LANG\';
+',
+            '$VAR4 = \'en_US\';
+',
+            '$VAR5 = \'no_proxy\';
+',
+            '$VAR6 = \'localhost,127.0.0.0/8,::1\';
+',
+            '$VAR7 = \'DEFAULTS_PATH\';
+',
+            '$VAR8 = \'/usr/share/gconf/ubuntu.default.path\';
+',
+            '$VAR9 = \'LC_TELEPHONE\';
+',
+            ' \'es_UY.UTF-8\';
+',
+            '$VAR11 = \'TEXTDOMAIN\';
+',
+            '$VAR12 = \'im-config\';
+',
+            '$VAR13 = \'COLORTERM\';
+',
+            '$VAR14 = \'gnome-terminal\';
+',
+            '$VAR15 = \'WINDOWID\';
+',
+            '$VAR16 = \'73400331\';
+',
+            '$VAR17 = \'SSH_AUTH_SOCK\';
+',
+            '$VAR18 = \'/run/user/1001/keyring-rbnIF2/ssh\';
+',
+            '$VAR19 = \'XDG_GREETER_DATA_DIR\';
+',
+            '$VAR20 = \'/var/lib/lightdm-data/andressabini\';
+',
+            '$VAR21 = \'GNOME_KEYRING_CONTROL\';
+',
+            '$VAR22 = \'/run/user/1001/keyring-rbnIF2\';
+',
+            '$VAR23 = \'GPG_AGENT_INFO\';
+',
+            '$VAR24 = \'/run/user/1001/keyring-rbnIF2/gpg:0:1\';
+',
+            '$VAR25 = \'QT_IM_MODULE\';
+',
+            '$VAR26 = \'ibus\';
+',
+            '$VAR27 = \'LC_NAME\';
+',
+            '$VAR28 = \'es_UY.UTF-8\';
+',
+            '$VAR29 = \'VTE_VERSION\';
+',
+            '$VAR30 = \'3409\';
+',
+            '$VAR31 = \'DISPLAY\';
+',
+            '$VAR32 = \':0\';
+',
+            '$VAR33 = \'XDG_DATA_DIRS\';
+',
+            '$VAR34 = \'/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/\';
+',
+            '$VAR35 = \'CLUTTER_IM_MODULE\';
+',
+            '$VAR36 = \'xim\';
+',
+            '$VAR37 = \'https_proxy\';
+',
+            '$VAR38 = \'https://proxy.corp.globant.com:3128/\';
+',
+            '$VAR39 = \'TERM\';
+',
+            '$VAR40 = \'xterm\';
+',
+            '$VAR41 = \'PATH\';
+',
+            '$VAR42 = \'/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/bin:/usr/share/grails-2.2.1/bin:\';
+',
+            '$VAR43 = \'INSTANCE\';
+',
+            '$VAR44 = \'\';
+',
+            '$VAR45 = \'SELINUX_INIT\';
+',
+            '$VAR46 = \'YES\';
+',
+            '$VAR47 = \'XDG_CURRENT_DESKTOP\';
+',
+            '$VAR48 = \'Unity\';
+',
+            '$VAR49 = \'SHLVL\';
+',
+            '$VAR50 = \'1\';
+',
+            '$VAR51 = \'XDG_VTNR\';
+',
+            '$VAR52 = \'7\';
+',
+            '$VAR53 = \'XDG_CONFIG_DIRS\';
+',
+            '$VAR54 = \'/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg\';
+',
+            '$VAR55 = \'LC_PAPER\';
+',
+            '$VAR56 = \'es_UY.UTF-8\';
+',
+            '$VAR57 = \'LC_TIME\';
+',
+            '$VAR58 = \'es_UY.UTF-8\';
+',
+            '$VAR59 = \'COMPIZ_CONFIG_PROFILE\';
+',
+            '$VAR60 = \'ubuntu\';
+',
+            '$VAR61 = \'SESSION_MANAGER\';
+',
+            '$VAR62 = \'local/glb-d0013uy:@/tmp/.ICE-unix/2202,unix/glb-d0013uy:/tmp/.ICE-unix/2202\';
+',
+            '$VAR63 = \'QT_QPA_PLATFORMTHEME\';
+',
+            '$VAR64 = \'appmenu-qt5\';
+',
+            '$VAR65 = \'TEXTDOMAINDIR\';
+',
+            '$VAR66 = \'/usr/share/locale/\';
+',
+            '$VAR67 = \'JOB\';
+',
+            '$VAR68 = \'dbus\';
+',
+            '$VAR69 = \'COMP_WORDBREAKS\';
+',
+            '$VAR70 = \' 	
+"\\\'><;|&(:\';
+',
+            '$VAR71 = \'LESSOPEN\';
+',
+            '$VAR72 = \'| /usr/bin/lesspipe %s\';
+',
+            '$VAR73 = \'PWD\';
+',
+            '$VAR74 = \'/home/andressabini/workspace/Test-DBIMock-More/trunk/cgi-bin\';
+',
+            '$VAR75 = \'http_proxy\';
+',
+            '$VAR76 = \'http://proxy.corp.globant.com:3128/\';
+',
+            '$VAR77 = \'LC_NUMERIC\';
+',
+            '$VAR78 = \'es_UY.UTF-8\';
+',
+            '$VAR79 = \'SESSION\';
+',
+            '$VAR80 = \'ubuntu\';
+',
+            '$VAR81 = \'GDMSESSION\';
+',
+            '$VAR82 = \'ubuntu\';
+',
+            '$VAR83 = \'GTK_IM_MODULE\';
+',
+            '$VAR84 = \'ibus\';
+',
+            '$VAR85 = \'XDG_SESSION_PATH\';
+',
+            '$VAR86 = \'/org/freedesktop/DisplayManager/Session0\';
+',
+            '$VAR87 = \'XDG_SESSION_ID\';
+',
+            '$VAR88 = \'c2\';
+',
+            '$VAR89 = \'IM_CONFIG_PHASE\';
+',
+            '$VAR90 = \'1\';
+',
+            '$VAR91 = \'XDG_RUNTIME_DIR\';
+',
+            '$VAR92 = \'/run/user/1001\';
+',
+            '$VAR93 = \'UPSTART_SESSION\';
+',
+            '$VAR94 = \'unix:abstract=/com/ubuntu/upstart-session/1001/2058\';
+',
+            '$VAR95 = \'PLACK_ENV\';
+',
+            '$VAR96 = \'development\';
+',
+            '$VAR97 = \'USER\';
+',
+            '$VAR98 = \'andressabini\';
+',
+            '$VAR99 = \'GRAILS_HOME\';
+',
+            '$VAR100 = \'/usr/share/grails-2.2.1\';
+',
+            '$VAR101 = \'OLDPWD\';
+',
+            '$VAR102 = \'/home/andressabini/workspace/Test-DBIMock-More/trunk\';
+',
+            '$VAR103 = \'GNOME_KEYRING_PID\';
+',
+            '$VAR104 = \'2056\';
+',
+            '$VAR105 = \'DBUS_SESSION_BUS_ADDRESS\';
+',
+            '$VAR106 = \'unix:abstract=/tmp/dbus-aDLW6Qp7rH\';
+',
+            '$VAR107 = \'XDG_SEAT_PATH\';
+',
+            '$VAR108 = \'/org/freedesktop/DisplayManager/Seat0\';
+',
+            '$VAR109 = \'LC_IDENTIFICATION\';
+',
+            '$VAR110 = \'es_UY.UTF-8\';
+',
+            '$VAR111 = \'GNOME_DESKTOP_SESSION_ID\';
+',
+            '$VAR112 = \'this-is-deprecated\';
+',
+            '$VAR113 = \'XDG_SEAT\';
+',
+            '$VAR114 = \'seat0\';
+',
+            '$VAR115 = \'_\';
+',
+            '$VAR116 = \'/usr/local/bin/plackup\';
+',
+            '$VAR117 = \'LS_COLORS\';
+',
+            '$VAR118 = \'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:\';
+',
+            '$VAR119 = \'HOME\';
+',
+            '$VAR120 = \'/home/andressabini\';
+',
+            '$VAR121 = \'XAUTHORITY\';
+',
+            '$VAR122 = \'/home/andressabini/.Xauthority\';
+',
+            '$VAR123 = \'SESSIONTYPE\';
+',
+            '$VAR124 = \'gnome-session\';
+',
+            '$VAR125 = \'QT4_IM_MODULE\';
+',
+            '$VAR126 = \'xim\';
+',
+            '$VAR127 = \'XMODIFIERS\';
+',
+            '$VAR128 = \'@im=ibus\';
+',
+            '$VAR129 = \'NO_PROXY\';
+',
+            '$VAR130 = \'localhost,127.0.0.0/8,::1\';
+',
+            '$VAR131 = \'GTK_MODULES\';
+',
+            '$VAR132 = \'overlay-scrollbar:unity-gtk-module\';
+',
+            '$VAR133 = \'LC_MONETARY\';
+',
+            '$VAR134 = \'es_UY.UTF-8\';
+',
+            '$VAR135 = \'LANGUAGE\';
+',
+            '$VAR136 = \'en_US\';
+',
+            '$VAR137 = \'SHELL\';
+',
+            '$VAR138 = \'/bin/bash\';
+',
+            '$VAR139 = \'COMPIZ_BIN_PATH\';
+',
+            '$VAR140 = \'/usr/bin/\';
+',
+            '$VAR141 = \'LC_ADDRESS\';
+',
+            '$VAR142 = \'es_UY.UTF-8\';
+',
+            '$VAR143 = \'MANDATORY_PATH\';
+',
+            '$VAR144 = \'/usr/share/gconf/ubuntu.mandatory.path\';
+',
+            '$VAR145 = \'DESKTOP_SESSION\';
+',
+            '$VAR146 = \'ubuntu\';
+',
+            '$VAR147 = \'LESSCLOSE\';
+',
+            '$VAR148 = \'/usr/bin/lesspipe %s %s\';
+',
+            '$VAR149 = \'XDG_MENU_PREFIX\';
+',
+            '$VAR150 = \'gnome-\';
+',
+            '$VAR151 = \'LOGNAME\';
+',
+            '$VAR152 = \'andressabini\';
+',
+            '$VAR153 = \'LC_MEASUREMENT\';
+',
+            '$VAR154 = \'es_UY.UTF-8\';
+'
+          ]
+        ];
+, },
+{ 'created_at': '2015-07-24 11:18:07', 127.0.0.1 - - [24/Jul/2015:11:18:07 -0300] "GET /favicon.ico HTTP/1.1" 200 5680 "http://localhost:5000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+, },
+{ 'created_at': '2015-07-24 11:29:54', HASH(0x30aade8), },
+{ 'created_at': '2015-07-24 11:29:54', ARRAY(0x322cad8), },
+{ 'created_at': '2015-07-24 11:29:54', 127.0.0.1 - - [24/Jul/2015:11:29:54 -0300] "GET / HTTP/1.1" 200 5680 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+, },
+{ 'created_at': '2015-07-24 11:29:54', HASH(0x30936a8), },
+{ 'created_at': '2015-07-24 11:29:54', ARRAY(0x322cf40), },
+{ 'created_at': '2015-07-24 11:29:54', 127.0.0.1 - - [24/Jul/2015:11:29:54 -0300] "GET /favicon.ico HTTP/1.1" 200 5680 "http://localhost:5000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+, },
+{ 'created_at': '2015-07-24 12:25:58', HASH(0x20f1388), },
+{ 'created_at': '2015-07-24 12:25:58', ARRAY(0x245a908), },
+{ 'created_at': '2015-07-24 12:25:58', 127.0.0.1 - - [24/Jul/2015:12:25:58 -0300] "GET / HTTP/1.1" 200 5680 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+, },
+{ 'created_at': '2015-07-24 12:25:58', HASH(0x2151b30), },
+{ 'created_at': '2015-07-24 12:25:58', ARRAY(0x245ad70), },
+{ 'created_at': '2015-07-24 12:25:58', 127.0.0.1 - - [24/Jul/2015:12:25:58 -0300] "GET /favicon.ico HTTP/1.1" 200 5680 "http://localhost:5000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+, },
+{ 'created_at': '2015-07-24 12:29:22', HASH(0x2d66db8), },
+{ 'created_at': '2015-07-24 12:29:22', ARRAY(0x333ab98), },
+{ 'created_at': '2015-07-24 12:29:22', 127.0.0.1 - - [24/Jul/2015:12:29:22 -0300] "GET / HTTP/1.1" 200 5680 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+, },
+{ 'created_at': '2015-07-24 12:29:22', HASH(0x3111758), },
+{ 'created_at': '2015-07-24 12:29:22', ARRAY(0x333b000), },
+{ 'created_at': '2015-07-24 12:29:22', 127.0.0.1 - - [24/Jul/2015:12:29:22 -0300] "GET /favicon.ico HTTP/1.1" 200 5680 "http://localhost:5000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+, },
+{ 'created_at': '2015-07-24 12:31:48', HASH(0x3241040), },
+{ 'created_at': '2015-07-24 12:31:48', ARRAY(0x3326d40), },
+{ 'created_at': '2015-07-24 12:31:48', 127.0.0.1 - - [24/Jul/2015:12:31:48 -0300] "GET / HTTP/1.1" 200 5680 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+, },
+{ 'created_at': '2015-07-24 12:31:48', HASH(0x30d7b88), },
+{ 'created_at': '2015-07-24 12:31:48', ARRAY(0x3326de8), },
+{ 'created_at': '2015-07-24 12:31:48', 127.0.0.1 - - [24/Jul/2015:12:31:48 -0300] "GET /favicon.ico HTTP/1.1" 200 5680 "http://localhost:5000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+, },
+{ 'created_at': '2015-07-24 14:30:02', ["200",["Content-Type","text/html"],["$VAR1 = 'XAUTHORITY';\n","$VAR2 = '/home/andressabini/.Xauthority';\n","$VAR3 = 'TEXTDOMAIN';\n","$VAR4 = 'im-config';\n","$VAR5 = 'LC_MONETARY';\n","$VAR6 = 'es_UY.UTF-8';\n","$VAR7 = 'COMPIZ_BIN_PATH';\n","$VAR8 = '/usr/bin/';\n","$VAR9 = 'MANDATORY_PATH';\n","$VAR10 = '/usr/share/gconf/ubuntu.mandatory.path';\n","$VAR11 = 'LC_NUMERIC';\n","$VAR12 = 'es_UY.UTF-8';\n","$VAR13 = 'WINDOWID';\n","$VAR14 = '73400331';\n","$VAR15 = 'XDG_CONFIG_DIRS';\n","$VAR16 = '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg';\n","$VAR17 = 'LANG';\n","$VAR18 = 'en_US.UTF-8';\n","$VAR19 = 'SHELL';\n","$VAR20 = '/bin/bash';\n","$VAR21 = 'IM_CONFIG_PHASE';\n","$VAR22 = '1';\n","$VAR23 = 'GTK_MODULES';\n","$VAR24 = 'overlay-scrollbar:unity-gtk-module';\n","$VAR25 = 'LESSOPEN';\n","$VAR26 = '| /usr/bin/lesspipe %s';\n","$VAR27 = 'GDM_LANG';\n","$VAR28 = 'en_US';\n","$VAR29 = 'SESSION_MANAGER';\n","$VAR30 = 'local/glb-d0013uy:@/tmp/.ICE-unix/2202,unix/glb-d0013uy:/tmp/.ICE-unix/2202';\n","$VAR31 = 'QT4_IM_MODULE';\n","$VAR32 = 'xim';\n","$VAR33 = 'SHLVL';\n","$VAR34 = '1';\n","$VAR35 = 'DEFAULTS_PATH';\n","$VAR36 = '/usr/share/gconf/ubuntu.default.path';\n","$VAR37 = 'XDG_VTNR';\n","$VAR38 = '7';\n","$VAR39 = 'http_proxy';\n","$VAR40 = 'http://proxy.corp.globant.com:3128/';\n","$VAR41 = 'XDG_DATA_DIRS';\n","$VAR42 = '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/';\n","$VAR43 = 'UPSTART_SESSION';\n","$VAR44 = 'unix:abstract=/com/ubuntu/upstart-session/1001/2058';\n","$VAR45 = 'GPG_AGENT_INFO';\n","$VAR46 = '/run/user/1001/keyring-rbnIF2/gpg:0:1';\n","$VAR47 = 'XDG_SEAT_PATH';\n","$VAR48 = '/org/freedesktop/DisplayManager/Seat0';\n","$VAR49 = 'XDG_SEAT';\n","$VAR50 = 'seat0';\n","$VAR51 = 'GNOME_DESKTOP_SESSION_ID';\n","$VAR52 = 'this-is-deprecated';\n","$VAR53 = 'HOME';\n","$VAR54 = '/home/andressabini';\n","$VAR55 = 'INSTANCE';\n","$VAR56 = '';\n","$VAR57 = 'https_proxy';\n","$VAR58 = 'https://proxy.corp.globant.com:3128/';\n","$VAR59 = 'PWD';\n","$VAR60 = '/home/andressabini/workspace/Test-DBIMock-More/trunk/cgi-bin';\n","$VAR61 = 'LESSCLOSE';\n","$VAR62 = '/usr/bin/lesspipe %s %s';\n","$VAR63 = 'LOGNAME';\n","$VAR64 = 'andressabini';\n","$VAR65 = 'XDG_RUNTIME_DIR';\n","$VAR66 = '/run/user/1001';\n","$VAR67 = 'SELINUX_INIT';\n","$VAR68 = 'YES';\n","$VAR69 = 'OLDPWD';\n","$VAR70 = '/home/andressabini/workspace/Test-DBIMock-More/trunk';\n","$VAR71 = 'LC_NAME';\n","$VAR72 = 'es_UY.UTF-8';\n","$VAR73 = 'JOB';\n","$VAR74 = 'dbus';\n","$VAR75 = 'CLUTTER_IM_MODULE';\n","$VAR76 = 'xim';\n","$VAR77 = 'VTE_VERSION';\n","$VAR78 = '3409';\n","$VAR79 = 'QT_IM_MODULE';\n","$VAR80 = 'ibus';\n","$VAR81 = 'USER';\n","$VAR82 = 'andressabini';\n","$VAR83 = 'SSH_AUTH_SOCK';\n","$VAR84 = '/run/user/1001/keyring-rbnIF2/ssh';\n","$VAR85 = 'XMODIFIERS';\n","$VAR86 = '@im=ibus';\n","$VAR87 = '_';\n","$VAR88 = '/usr/local/bin/plackup';\n","$VAR89 = 'DBUS_SESSION_BUS_ADDRESS';\n","$VAR90 = 'unix:abstract=/tmp/dbus-aDLW6Qp7rH';\n","$VAR91 = 'PATH';\n","$VAR92 = '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/bin:/usr/share/grails-2.2.1/bin:';\n","$VAR93 = 'TEXTDOMAINDIR';\n","$VAR94 = '/usr/share/locale/';\n","$VAR95 = 'XDG_MENU_PREFIX';\n","$VAR96 = 'gnome-';\n","$VAR97 = 'COLORTERM';\n","$VAR98 = 'gnome-terminal';\n","$VAR99 = 'QT_QPA_PLATFORMTHEME';\n","$VAR100 = 'appmenu-qt5';\n","$VAR101 = 'XDG_SESSION_ID';\n","$VAR102 = 'c2';\n","$VAR103 = 'GNOME_KEYRING_PID';\n","$VAR104 = '2056';\n","$VAR105 = 'LC_PAPER';\n","$VAR106 = 'es_UY.UTF-8';\n","$VAR107 = 'COMPIZ_CONFIG_PROFILE';\n","$VAR108 = 'ubuntu';\n","$VAR109 = 'TERM';\n","$VAR110 = 'xterm';\n","$VAR111 = 'XDG_SESSION_PATH';\n","$VAR112 = '/org/freedesktop/DisplayManager/Session0';\n","$VAR113 = 'DESKTOP_SESSION';\n","$VAR114 = 'ubuntu';\n","$VAR115 = 'LC_ADDRESS';\n","$VAR116 = 'es_UY.UTF-8';\n","$VAR117 = 'LC_TIME';\n","$VAR118 = 'es_UY.UTF-8';\n","$VAR119 = 'COMP_WORDBREAKS';\n","$VAR120 = ' \t\n\"\\'><;|&(:';\n","$VAR121 = 'LANGUAGE';\n","$VAR122 = 'en_US';\n","$VAR123 = 'PLACK_ENV';\n","$VAR124 = 'development';\n","$VAR125 = 'SESSIONTYPE';\n","$VAR126 = 'gnome-session';\n","$VAR127 = 'SESSION';\n","$VAR128 = 'ubuntu';\n","$VAR129 = 'LC_TELEPHONE';\n","$VAR130 = 'es_UY.UTF-8';\n","$VAR131 = 'DISPLAY';\n","$VAR132 = ':0';\n","$VAR133 = 'GRAILS_HOME';\n","$VAR134 = '/usr/share/grails-2.2.1';\n","$VAR135 = 'XDG_GREETER_DATA_DIR';\n","$VAR136 = '/var/lib/lightdm-data/andressabini';\n","$VAR137 = 'LC_IDENTIFICATION';\n","$VAR138 = 'es_UY.UTF-8';\n","$VAR139 = 'XDG_CURRENT_DESKTOP';\n","$VAR140 = 'Unity';\n","$VAR141 = 'LS_COLORS';\n","$VAR142 = 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:';\n","$VAR143 = 'GNOME_KEYRING_CONTROL';\n","$VAR144 = '/run/user/1001/keyring-rbnIF2';\n","$VAR145 = 'NO_PROXY';\n","$VAR146 = 'localhost,127.0.0.0/8,::1';\n","$VAR147 = 'LC_MEASUREMENT';\n","$VAR148 = 'es_UY.UTF-8';\n","$VAR149 = 'GTK_IM_MODULE';\n","$VAR150 = 'ibus';\n","$VAR151 = 'GDMSESSION';\n","$VAR152 = 'ubuntu';\n","$VAR153 = 'no_proxy';\n","$VAR154 = 'localhost,127.0.0.0/8,::1';\n"]], },
+{ 'created_at': '2015-07-24 14:30:02', 127.0.0.1 - - [24/Jul/2015:14:30:02 -0300] "GET / HTTP/1.1" 200 5680 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+, },
+{ 'created_at': '2015-07-24 14:30:02', ["200",["Content-Type","text/html"],["$VAR1 = 'XAUTHORITY';\n","$VAR2 = '/home/andressabini/.Xauthority';\n","$VAR3 = 'TEXTDOMAIN';\n","$VAR4 = 'im-config';\n","$VAR5 = 'LC_MONETARY';\n","$VAR6 = 'es_UY.UTF-8';\n","$VAR7 = 'COMPIZ_BIN_PATH';\n","$VAR8 = '/usr/bin/';\n","$VAR9 = 'MANDATORY_PATH';\n","$VAR10 = '/usr/share/gconf/ubuntu.mandatory.path';\n","$VAR11 = 'LC_NUMERIC';\n","$VAR12 = 'es_UY.UTF-8';\n","$VAR13 = 'WINDOWID';\n","$VAR14 = '73400331';\n","$VAR15 = 'XDG_CONFIG_DIRS';\n","$VAR16 = '/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg';\n","$VAR17 = 'LANG';\n","$VAR18 = 'en_US.UTF-8';\n","$VAR19 = 'SHELL';\n","$VAR20 = '/bin/bash';\n","$VAR21 = 'IM_CONFIG_PHASE';\n","$VAR22 = '1';\n","$VAR23 = 'GTK_MODULES';\n","$VAR24 = 'overlay-scrollbar:unity-gtk-module';\n","$VAR25 = 'LESSOPEN';\n","$VAR26 = '| /usr/bin/lesspipe %s';\n","$VAR27 = 'GDM_LANG';\n","$VAR28 = 'en_US';\n","$VAR29 = 'SESSION_MANAGER';\n","$VAR30 = 'local/glb-d0013uy:@/tmp/.ICE-unix/2202,unix/glb-d0013uy:/tmp/.ICE-unix/2202';\n","$VAR31 = 'QT4_IM_MODULE';\n","$VAR32 = 'xim';\n","$VAR33 = 'SHLVL';\n","$VAR34 = '1';\n","$VAR35 = 'DEFAULTS_PATH';\n","$VAR36 = '/usr/share/gconf/ubuntu.default.path';\n","$VAR37 = 'XDG_VTNR';\n","$VAR38 = '7';\n","$VAR39 = 'http_proxy';\n","$VAR40 = 'http://proxy.corp.globant.com:3128/';\n","$VAR41 = 'XDG_DATA_DIRS';\n","$VAR42 = '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/';\n","$VAR43 = 'UPSTART_SESSION';\n","$VAR44 = 'unix:abstract=/com/ubuntu/upstart-session/1001/2058';\n","$VAR45 = 'GPG_AGENT_INFO';\n","$VAR46 = '/run/user/1001/keyring-rbnIF2/gpg:0:1';\n","$VAR47 = 'XDG_SEAT_PATH';\n","$VAR48 = '/org/freedesktop/DisplayManager/Seat0';\n","$VAR49 = 'XDG_SEAT';\n","$VAR50 = 'seat0';\n","$VAR51 = 'GNOME_DESKTOP_SESSION_ID';\n","$VAR52 = 'this-is-deprecated';\n","$VAR53 = 'HOME';\n","$VAR54 = '/home/andressabini';\n","$VAR55 = 'INSTANCE';\n","$VAR56 = '';\n","$VAR57 = 'https_proxy';\n","$VAR58 = 'https://proxy.corp.globant.com:3128/';\n","$VAR59 = 'PWD';\n","$VAR60 = '/home/andressabini/workspace/Test-DBIMock-More/trunk/cgi-bin';\n","$VAR61 = 'LESSCLOSE';\n","$VAR62 = '/usr/bin/lesspipe %s %s';\n","$VAR63 = 'LOGNAME';\n","$VAR64 = 'andressabini';\n","$VAR65 = 'XDG_RUNTIME_DIR';\n","$VAR66 = '/run/user/1001';\n","$VAR67 = 'SELINUX_INIT';\n","$VAR68 = 'YES';\n","$VAR69 = 'OLDPWD';\n","$VAR70 = '/home/andressabini/workspace/Test-DBIMock-More/trunk';\n","$VAR71 = 'LC_NAME';\n","$VAR72 = 'es_UY.UTF-8';\n","$VAR73 = 'JOB';\n","$VAR74 = 'dbus';\n","$VAR75 = 'CLUTTER_IM_MODULE';\n","$VAR76 = 'xim';\n","$VAR77 = 'VTE_VERSION';\n","$VAR78 = '3409';\n","$VAR79 = 'QT_IM_MODULE';\n","$VAR80 = 'ibus';\n","$VAR81 = 'USER';\n","$VAR82 = 'andressabini';\n","$VAR83 = 'SSH_AUTH_SOCK';\n","$VAR84 = '/run/user/1001/keyring-rbnIF2/ssh';\n","$VAR85 = 'XMODIFIERS';\n","$VAR86 = '@im=ibus';\n","$VAR87 = '_';\n","$VAR88 = '/usr/local/bin/plackup';\n","$VAR89 = 'DBUS_SESSION_BUS_ADDRESS';\n","$VAR90 = 'unix:abstract=/tmp/dbus-aDLW6Qp7rH';\n","$VAR91 = 'PATH';\n","$VAR92 = '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/bin:/usr/share/grails-2.2.1/bin:';\n","$VAR93 = 'TEXTDOMAINDIR';\n","$VAR94 = '/usr/share/locale/';\n","$VAR95 = 'XDG_MENU_PREFIX';\n","$VAR96 = 'gnome-';\n","$VAR97 = 'COLORTERM';\n","$VAR98 = 'gnome-terminal';\n","$VAR99 = 'QT_QPA_PLATFORMTHEME';\n","$VAR100 = 'appmenu-qt5';\n","$VAR101 = 'XDG_SESSION_ID';\n","$VAR102 = 'c2';\n","$VAR103 = 'GNOME_KEYRING_PID';\n","$VAR104 = '2056';\n","$VAR105 = 'LC_PAPER';\n","$VAR106 = 'es_UY.UTF-8';\n","$VAR107 = 'COMPIZ_CONFIG_PROFILE';\n","$VAR108 = 'ubuntu';\n","$VAR109 = 'TERM';\n","$VAR110 = 'xterm';\n","$VAR111 = 'XDG_SESSION_PATH';\n","$VAR112 = '/org/freedesktop/DisplayManager/Session0';\n","$VAR113 = 'DESKTOP_SESSION';\n","$VAR114 = 'ubuntu';\n","$VAR115 = 'LC_ADDRESS';\n","$VAR116 = 'es_UY.UTF-8';\n","$VAR117 = 'LC_TIME';\n","$VAR118 = 'es_UY.UTF-8';\n","$VAR119 = 'COMP_WORDBREAKS';\n","$VAR120 = ' \t\n\"\\'><;|&(:';\n","$VAR121 = 'LANGUAGE';\n","$VAR122 = 'en_US';\n","$VAR123 = 'PLACK_ENV';\n","$VAR124 = 'development';\n","$VAR125 = 'SESSIONTYPE';\n","$VAR126 = 'gnome-session';\n","$VAR127 = 'SESSION';\n","$VAR128 = 'ubuntu';\n","$VAR129 = 'LC_TELEPHONE';\n","$VAR130 = 'es_UY.UTF-8';\n","$VAR131 = 'DISPLAY';\n","$VAR132 = ':0';\n","$VAR133 = 'GRAILS_HOME';\n","$VAR134 = '/usr/share/grails-2.2.1';\n","$VAR135 = 'XDG_GREETER_DATA_DIR';\n","$VAR136 = '/var/lib/lightdm-data/andressabini';\n","$VAR137 = 'LC_IDENTIFICATION';\n","$VAR138 = 'es_UY.UTF-8';\n","$VAR139 = 'XDG_CURRENT_DESKTOP';\n","$VAR140 = 'Unity';\n","$VAR141 = 'LS_COLORS';\n","$VAR142 = 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:';\n","$VAR143 = 'GNOME_KEYRING_CONTROL';\n","$VAR144 = '/run/user/1001/keyring-rbnIF2';\n","$VAR145 = 'NO_PROXY';\n","$VAR146 = 'localhost,127.0.0.0/8,::1';\n","$VAR147 = 'LC_MEASUREMENT';\n","$VAR148 = 'es_UY.UTF-8';\n","$VAR149 = 'GTK_IM_MODULE';\n","$VAR150 = 'ibus';\n","$VAR151 = 'GDMSESSION';\n","$VAR152 = 'ubuntu';\n","$VAR153 = 'no_proxy';\n","$VAR154 = 'localhost,127.0.0.0/8,::1';\n"]], },
+{ 'created_at': '2015-07-24 14:30:02', 127.0.0.1 - - [24/Jul/2015:14:30:02 -0300] "GET /favicon.ico HTTP/1.1" 200 5680 "http://localhost:5000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+, },
+{ 'created_at': '2015-07-24 14:31:43', ["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]], },
+{ 'created_at': '2015-07-24 14:31:43', 127.0.0.1 - - [24/Jul/2015:14:31:43 -0300] "GET / HTTP/1.1" 200 50 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+, },
+{ 'created_at': '2015-07-24 14:31:43', ["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]], },
+{ 'created_at': '2015-07-24 14:31:43', 127.0.0.1 - - [24/Jul/2015:14:31:43 -0300] "GET /favicon.ico HTTP/1.1" 200 50 "http://localhost:5000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+, },
+{ 'created_at': '2015-07-24 14:32:53', ["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]], },
+{ 'created_at': '2015-07-24 14:32:53', 127.0.0.1 - - [24/Jul/2015:14:32:53 -0300] "GET /?dfdg=gdfjgkd HTTP/1.1" 200 50 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+, },
+{ 'created_at': '2015-07-24 14:32:53', ["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]], },
+{ 'created_at': '2015-07-24 14:32:53', 127.0.0.1 - - [24/Jul/2015:14:32:53 -0300] "GET /favicon.ico HTTP/1.1" 200 50 "http://localhost:5000/?dfdg=gdfjgkd" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.89 Safari/537.36"
+, },
+{ 'created_at': '2015-07-24 14:41:28', ["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]], },
+{ 'created_at': '2015-07-24 14:41:28', ["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]], },
+{ 'created_at': '2015-07-24 14:55:07', ["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]], },
+{ 'created_at': '2015-07-24 14:55:10', ["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]], },
+{ 'created_at': '2015-07-24 14:55:26', ["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]], },
+{ 'created_at': '2015-07-24 14:55:29', ["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]], },
+{ 'created_at': '2015-07-24 14:57:51', {"response":["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]],"execute_time":3.000213}, },
+{ 'created_at': '2015-07-24 14:57:54', {"response":["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]],"execute_time":3.000139}, },
+{ 'created_at': '2015-07-24 15:00:29', {"response":["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]],"execute_time":3.000173}, },
+{ 'created_at': '2015-07-24 15:00:32', {"execute_time":3.000076,"response":["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]]}, },
+{ 'created_at': '2015-07-24 15:46:49', {"execute_time":3.000123,"query":null,"response":["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]]}, },
+{ 'created_at': '2015-07-24 15:46:52', {"execute_time":3.000154,"query":null,"response":["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]]}, },
+{ 'created_at': '2015-07-24 15:53:16', {"remote_host":null,"execute_time":3.000214,"address":"127.0.0.1","parameters":null,"response":["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]]}, },
+{ 'created_at': '2015-07-24 15:53:19', {"response":["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]],"address":"127.0.0.1","parameters":null,"remote_host":null,"execute_time":3.000181}, },
+{ 'created_at': '2015-07-24 15:53:40', {"address":"127.0.0.1","remote_host":null,"parameters":null,"response":["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]],"execute_time":3.000351}, },
+{ 'created_at': '2015-07-24 15:53:43', {"parameters":null,"remote_host":null,"address":"127.0.0.1","response":["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]],"execute_time":3.000115}, },
+{ 'created_at': '2015-07-24 15:55:08', {"address":null,"response":["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]],"execute_time":3.000295}, },
+{ 'created_at': '2015-07-24 15:55:11', {"response":["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]],"execute_time":3.000145,"address":null}, },
+{ 'created_at': '2015-07-24 16:17:28', {"response":["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]],"params":1,"execute_time":3.00033}, },
+{ 'created_at': '2015-07-24 16:17:31', {"response":["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]],"params":0,"execute_time":3.000194}, },
+{ 'created_at': '2015-07-24 16:19:17', {"response":["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]],"execute_time":3.000274,"params":{"dfdg":"gdfjgkd"}}, },
+{ 'created_at': '2015-07-24 16:19:20', {"response":["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]],"execute_time":3.00024,"params":{}}, },
+{ 'created_at': '2015-07-24 16:20:03', {"response":["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]],"execute_time":3.000305,"params":{"param1":"coso","lista[]":["1","1","1","1"]}}, },
+{ 'created_at': '2015-07-24 16:20:06', {"response":["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]],"execute_time":3.000239,"params":{}}, },
+{ 'created_at': '2015-07-24 16:20:24', {"response":["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]],"execute_time":3.000335,"params":{"lista[3]":"4","lista[1]":"2","lista[2]":"3","lista[0]":"1","param1":"coso"}}, },
+{ 'created_at': '2015-07-24 16:20:27', {"response":["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]],"execute_time":3.000257,"params":{}}, },
+{ 'created_at': '2015-07-24 16:20:40', {"response":["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]],"execute_time":3.000416,"params":{"lista":["1","2","3","4"],"param1":"coso"}}, },
+{ 'created_at': '2015-07-24 16:20:43', {"response":["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]],"execute_time":3.000247,"params":{}}, },
+{ 'created_at': '2015-07-24 16:27:33', {"response":["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]],"session":{},"params":{"param1":"coso","lista":["1","2","3","4"]},"execute_time":3.000395,"cookies":{"PHPSESSID":"0n30nm2psevlmqbe244510o6b7","plack_session":"23d0951dbba75f790bce6a3da9a1489641832cc9"},"query_string":"param1=coso&lista=1&lista=2&lista=3&lista=4","session_options":{"id":"0ac97a0d65bd87342d957fd373f4cba0e400c24b"},"script_name":""}, },
+{ 'created_at': '2015-07-24 16:27:36', {"response":["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]],"session":{},"params":{},"execute_time":3.000261,"cookies":{"PHPSESSID":"0n30nm2psevlmqbe244510o6b7","plack_session":"0ac97a0d65bd87342d957fd373f4cba0e400c24b"},"query_string":"","session_options":{"id":"0ac97a0d65bd87342d957fd373f4cba0e400c24b"},"script_name":""}, },
+{ 'created_at': '2015-07-24 16:29:04', {"response":["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]],"session":{},"params":{"lista":["1","2","3","4"],"param1":"coso"},"execute_time":3.000262,"cookies":{},"query_string":"param1=coso&lista=1&lista=2&lista=3&lista=4","session_options":{"id":"0ac8fbd3dd7de9aaa6666bc3a1e01e98faf6c0e8"},"script_name":""}, },
+{ 'created_at': '2015-07-24 16:29:07', {"response":["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]],"session":{},"params":{},"execute_time":3.000185,"cookies":{"plack_session":"0ac8fbd3dd7de9aaa6666bc3a1e01e98faf6c0e8"},"query_string":"","session_options":{"id":"0ac8fbd3dd7de9aaa6666bc3a1e01e98faf6c0e8"},"script_name":""}, },
+{ 'created_at': '2015-07-24 16:29:10', {"response":["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]],"session":{},"params":{},"execute_time":3.000364,"cookies":{"plack_session":"0ac8fbd3dd7de9aaa6666bc3a1e01e98faf6c0e8"},"query_string":"","session_options":{"id":"0ac8fbd3dd7de9aaa6666bc3a1e01e98faf6c0e8"},"script_name":""}, },
+{ 'created_at': '2015-07-24 17:26:18', {"path":"/","scheme":"http","execute_time":3.000505,"address":"127.0.0.1","protocol":"HTTP/1.1","remote_host":null,"path_info":"/","session":{},"method":"GET","cookies":{"plack_session":"0ac97a0d65bd87342d957fd373f4cba0e400c24b","PHPSESSID":"0n30nm2psevlmqbe244510o6b7"},"request_uri":"/?param1=coso&lista=1&lista=2&lista=3&lista=4","session_options":{"id":"196f47f33f335cd096242a11e5dae6a687e7430e"},"response":["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]],"query_string":"param1=coso&lista=1&lista=2&lista=3&lista=4","script_name":"","params":{"lista":["1","2","3","4"],"param1":"coso"}}, },
+{ 'created_at': '2015-07-24 17:26:21', {"path":"/favicon.ico","scheme":"http","execute_time":3.000277,"address":"127.0.0.1","protocol":"HTTP/1.1","remote_host":null,"path_info":"/favicon.ico","session":{},"method":"GET","cookies":{"plack_session":"196f47f33f335cd096242a11e5dae6a687e7430e","PHPSESSID":"0n30nm2psevlmqbe244510o6b7"},"request_uri":"/favicon.ico","session_options":{"id":"196f47f33f335cd096242a11e5dae6a687e7430e"},"response":["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]],"query_string":"","script_name":"","params":{}}, },
+{ 'created_at': '2015-07-27 09:37:53', {"scheme":"http","path_info":"/","session_options":{"id":"b927e83ccaa65d956abf7b4b27756a8ec780189e"},"execute_time":3.000332,"params":{},"response":["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]],"protocol":"HTTP/1.1","cookies":{"PHPSESSID":"0n30nm2psevlmqbe244510o6b7","plack_session":"196f47f33f335cd096242a11e5dae6a687e7430e"},"remote_host":null,"path":"/","method":"GET","request_uri":"/","script_name":"","session":{},"address":"127.0.0.1","query_string":""}, },
+{ 'created_at': '2015-07-27 09:37:56', {"scheme":"http","path_info":"/favicon.ico","session_options":{"id":"b927e83ccaa65d956abf7b4b27756a8ec780189e"},"execute_time":3.000291,"params":{},"response":["200",["Content-Type","text/html"],["<html><body><div>Hola Mundo!!!</div></body></html>"]],"protocol":"HTTP/1.1","cookies":{"plack_session":"b927e83ccaa65d956abf7b4b27756a8ec780189e","PHPSESSID":"0n30nm2psevlmqbe244510o6b7"},"remote_host":null,"path":"/favicon.ico","method":"GET","request_uri":"/favicon.ico","script_name":"","session":{},"address":"127.0.0.1","query_string":""}, },
